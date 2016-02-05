@@ -1,0 +1,25 @@
+{
+  "jspm": {
+    "dependencies": {
+      "systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@^0.5.5"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "hot-reload-store-example",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "chokidar-socket-emitter": "^0.4.2",
+    "http-server": "^0.8.5"
+  }
+}
